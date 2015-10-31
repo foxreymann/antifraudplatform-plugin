@@ -1,7 +1,3 @@
-var clients = [],
-    emailTime = new Date(),
-    q1Time = new Date(),
-    fraud = false;
 
 
 $( "#submit" ).click(function() {
