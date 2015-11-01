@@ -12,7 +12,7 @@ $( "#submit" ).click(function() {
       fingerprint : result
     };
 
-    $.post( "test.php", { name: "John", time: "2pm" }).done(success);
+    $.post(url, data).done(success);
   });
 });
 
