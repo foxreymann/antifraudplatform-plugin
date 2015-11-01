@@ -288,10 +288,6 @@ label {
   margin: 20px 0;
 }
 
-.result {
+#fraud-score {
   display: none;
 }
-
-#new-quote {
-  float: right;
-  }

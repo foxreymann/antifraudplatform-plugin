@@ -17,5 +17,7 @@ $( "#submit" ).click(function() {
 });
 
 var success = function(data) {
-  $( ".result" ).html( data );
+  console.log(data);
+  $( "#fraud-score span" ).html( data.fraudScore );
+  $( "#fraud-score " ).show();
 }
