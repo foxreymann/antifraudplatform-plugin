@@ -1,0 +1,6 @@
+{
+  "name": "",
+  "dependencies": {
+    "fingerprintjs2": "^0.8.0"
+  }
+}
